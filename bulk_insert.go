@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jinzhu/gorm"
+	"gorm.io/gorm"
 )
 
 // BulkInsert executes the query to insert multiple records at once.

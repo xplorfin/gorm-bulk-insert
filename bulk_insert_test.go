@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"gorm.io/gorm"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"gorm.io/gorm"
 )
 
 type fakeRelationTable struct{}
